@@ -2,7 +2,9 @@
 *{
     font-family: 'Lato';
 }
-
+.project-img{
+    max-height: 214px
+}
 hr
 {
 
