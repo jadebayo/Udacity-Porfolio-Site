@@ -11,7 +11,7 @@
 </head>
 <body>
 	<div class="container">
-		<div class="row">
+		<header class="row">
 			<div class="col-xs-12 col-md-6">
 				<img src="img/MyLogo.png" class="img-responsive" alt="joshua adebayo logo">
 			</div>
@@ -19,33 +19,65 @@
 				<h1>Joshua Adebayo</h1>
 				<h4>Awesome Developer</h4>
 			</div>
-		</div>
+		</header>
 		<hr>
-		<div class="row">
+		<section class="row">
 			<div class="col-md-12">
 				<img src="https://placebear.com/1140/350" class="img-responsive" alt="Responsive image">
 			</div>
-		</div>
+		</section>
 		<div class="row">
 			<div class="col-md-12">
 				<h2>Featured Work</h2>
 			</div>
 		</div>
-		<div class="row">
+		<section class="row">
 		<!--TODO: get project images -->
 			<div class="col-md-4">
 				<img src="img/movie-site.png" class="img-responsive project-img" alt="movie trailer site image">
-				<h3 class="text-uppercase text-center">Movie Trailer Site</h3>
+				<a class="btn" role="button" data-toggle="collapse" href="#collapseMovie" aria-expanded="false" aria-controls="collapseMovie">
+					<h3 class="text-uppercase text-center">Movie Trailer Site</h3>
+				</a>
+				<div class="collapse" id="collapseMovie">
+					<div class="well">
+						<p>Server-side code written in Python to store a list of my favorite movies, including box art imagery and a movie trailer URL. This data is then served to a web page using HTML and CSS allowing visitors to review these movies and watch the trailers.</p>
+					</div>
+				</div>
 			</div>
 			<div class="col-md-4">
 				<img src="img/Biofuels.png" class="img-responsive project-img" alt="project 2 image">
-				<h3 class="text-uppercase text-center">Biofuels App</h3>
+				<a class="btn" role="button" data-toggle="collapse" href="#collapseBiofuel" aria-expanded="false" aria-controls="collapseBiofuel">
+					<h3 class="text-uppercase text-center">Biofuels App</h3>
+				</a>
+				<div class="collapse" id="collapseBiofuel">
+					<div class="well">
+						<p>
+							This project serves as an efficient interface for my University's Chemistry Department to document and analyze algae samples from their customers them to eliminate data errors and redundancy that stem from documenting large amounts of data with pen and paper. The product promotes a more efficient process that will lead to faster turn-around time and better profits for the Liberty University Chemistry Department.
+						</p>
+						<p>
+							As apart of the team i built a web service using Node.js and Express, that provided data to the Angular.js front-end. I was responsible for implement a variety of endpoints that manipulated, retrieved and stored data. I was also responsible for building out some of the Angular.js pages as well.
+						</p>
+					</div>
+				</div>
 			</div>
 			<div class="col-md-4">
 				<img src="https://placebear.com/360/215" class="img-responsive project-img" alt="project 3 image">
-				<h3 class="text-uppercase text-center">BOKEH</h3>
+				<a class="btn" role="button" data-toggle="collapse" href="#collapseBokeh" aria-expanded="false" aria-controls="collapseBokeh">
+					<h3 class="text-uppercase text-center">BOKEH</h3>
+				</a>
+				<div class="collapse" id="collapseBokeh">
+					<div class="well">
+						<p>This is a picture of a bear. I dont have a project to put here but soon i will.</p>
+					</div>
+				</div>
 			</div>
-		</div>
+		</section>
+		<footer>
+			<hr>
+			<p>© 2016 Joshua Adebayo</p>
+		</footer>
 	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="js/bootstrap.js"></script>
 </body>
 </html>

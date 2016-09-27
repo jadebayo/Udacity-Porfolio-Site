@@ -1,16 +1,25 @@
 
-*{
-    font-family: 'Lato';
+*
+{
+    font-family: "Lato";
 }
+
 .project-img
 {
     max-height: 214px
 }
+
 hr
 {
     border: 2px solid #7d97ad;
 }
+
 h2
 {
     color: #7d97ad;
+}
+
+footer > hr
+{
+	border: 1px solid #7d97ad;
 }
